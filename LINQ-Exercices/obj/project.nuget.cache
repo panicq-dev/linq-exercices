@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZS+UznMfmjY=",
+  "dgSpecHash": "QSpyBwd2pdw=",
   "success": true,
   "projectFilePath": "/home/gabriel/RiderProjects/LINQ-Exercices/LINQ-Exercices/LINQ-Exercices.csproj",
   "expectedPackageFiles": [
+    "/home/gabriel/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/gabriel/.nuget/packages/microsoft.aspnetcore.openapi/10.0.12/microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
     "/home/gabriel/.nuget/packages/microsoft.data.sqlite.core/10.0.12/microsoft.data.sqlite.core.10.0.12.nupkg.sha512",
     "/home/gabriel/.nuget/packages/microsoft.entityframeworkcore/10.0.12/microsoft.entityframeworkcore.10.0.12.nupkg.sha512",
@@ -19,5 +20,18 @@
     "/home/gabriel/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.12/sqlitepclraw.lib.e_sqlite3.2.1.12.nupkg.sha512",
     "/home/gabriel/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.12/sqlitepclraw.provider.e_sqlite3.2.1.12.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "/home/gabriel/RiderProjects/LINQ-Exercices/LINQ-Exercices/LINQ-Exercices.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/gabriel/RiderProjects/LINQ-Exercices/LINQ-Exercices/LINQ-Exercices.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
